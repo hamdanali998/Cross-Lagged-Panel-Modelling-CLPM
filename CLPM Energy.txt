@@ -1,0 +1,109 @@
+lavaan 0.6-21 ended normally after 89 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        25
+
+  Number of observations                           268
+  Number of missing patterns                         1
+
+Model Test User Model:
+                                                      
+  Test statistic                                 0.656
+  Degrees of freedom                                 2
+  P-value (Chi-square)                           0.720
+
+Model Test Baseline Model:
+
+  Test statistic                               613.328
+  Degrees of freedom                                15
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000
+  Tucker-Lewis Index (TLI)                       1.017
+                                                      
+  Robust Comparative Fit Index (CFI)             1.000
+  Robust Tucker-Lewis Index (TLI)                1.017
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -6693.882
+  Loglikelihood unrestricted model (H1)      -6693.554
+                                                      
+  Akaike (AIC)                               13437.764
+  Bayesian (BIC)                             13527.539
+  Sample-size adjusted Bayesian (SABIC)      13448.273
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.000
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.087
+  P-value H_0: RMSEA <= 0.050                    0.841
+  P-value H_0: RMSEA >= 0.080                    0.065
+                                                      
+  Robust RMSEA                                   0.000
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.087
+  P-value H_0: Robust RMSEA <= 0.050             0.841
+  P-value H_0: Robust RMSEA >= 0.080             0.065
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.006
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Observed
+  Observed information based on                Hessian
+
+Regressions:
+                     Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  ld_energy_w1 ~                                                          
+    mr_energy           0.409    0.070    5.866    0.000    0.409    0.368
+  ld_energy_w2 ~                                                          
+    ld_energy_w1        0.489    0.057    8.548    0.000    0.489    0.489
+    mr_energy           0.205    0.059    3.492    0.000    0.205    0.185
+  ld_gen_health_w1 ~                                                      
+    mr_gen_health       0.572    0.052   11.005    0.000    0.572    0.614
+  ld_gen_health_w2 ~                                                      
+    ld_gen_hlth_w1      0.479    0.061    7.878    0.000    0.479    0.450
+  ld_gen_health_w1 ~                                                      
+    mr_energy           0.009    0.054    0.163    0.870    0.009    0.009
+  ld_gen_health_w2 ~                                                      
+    ld_energy_w1        0.095    0.045    2.118    0.034    0.095    0.103
+    mr_gen_health       0.247    0.053    4.616    0.000    0.247    0.249
+  ld_energy_w1 ~                                                          
+    mr_gen_health       0.168    0.068    2.489    0.013    0.168    0.156
+  ld_energy_w2 ~                                                          
+    ld_gen_hlth_w1     -0.027    0.063   -0.433    0.665   -0.027   -0.024
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  mr_energy ~~                                                          
+    mr_gen_health   172.815   23.233    7.438    0.000  172.815    0.510
+ .ld_energy_w1 ~~                                                       
+   .ld_gen_hlth_w1   57.324   15.266    3.755    0.000   57.324    0.236
+ .ld_energy_w2 ~~                                                       
+   .ld_gen_hlth_w2   82.202   14.407    5.706    0.000   82.202    0.372
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ld_energy_w1     21.957    4.276    5.135    0.000   21.957    1.091
+   .ld_energy_w2     12.445    4.508    2.761    0.006   12.445    0.617
+   .ld_gen_hlth_w1   31.148    3.285    9.481    0.000   31.148    1.790
+   .ld_gen_hlth_w2   11.708    3.710    3.156    0.002   11.708    0.633
+    mr_energy        52.627    1.108   47.509    0.000   52.627    2.902
+    mr_gen_health    67.201    1.141   58.883    0.000   67.201    3.597
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .ld_energy_w1    316.609   27.351   11.576    0.000  316.609    0.781
+   .ld_energy_w2    267.202   23.085   11.575    0.000  267.202    0.657
+   .ld_gen_hlth_w1  186.890   16.145   11.576    0.000  186.890    0.617
+   .ld_gen_hlth_w2  182.637   15.779   11.574    0.000  182.637    0.533
+    mr_energy       328.852   28.409   11.576    0.000  328.852    1.000
+    mr_gen_health   349.071   30.155   11.576    0.000  349.071    1.000
