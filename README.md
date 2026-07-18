@@ -41,7 +41,7 @@ R
 lavaan
 tidyverse
 Supporting packages for data management and visualization.
-
+This repository is intended for research transparency, reproducibility, and educational purposes. The scripts reproduce the analyses performed in the project but do not include the original survey data.
 # Disclaimer
 
 This repository is intended for research transparency, reproducibility, and educational purposes. The original dataset belongs to the original study authors and is therefore not redistributed in this repository.
